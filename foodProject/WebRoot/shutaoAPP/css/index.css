@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* html,
+* body {
+  width: 100%;
+  height: 100%;
+}
+* html .wrapper,
+* body .wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+* html .wrapper .head,
+* body .wrapper .head {
+  position: relative;
+  width: 100%;
+  height: 1.1rem;
+  background-color: #8aa6d0;
+  text-align: center;
+}
+* html .wrapper .head .nav,
+* body .wrapper .head .nav {
+  position: absolute;
+  left: 0.37rem;
+  top: 0.17rem;
+  width: 0.6rem;
+  height: 0.64rem;
+  opacity: 0.7;
+  background: url("../image/sort.png") 100% 100% / cover no-repeat;
+}
+* html .wrapper .head .search-box,
+* body .wrapper .head .search-box {
+  position: absolute;
+  left: 1.35rem;
+  top: 0.17rem;
+  width: 6rem;
+  height: 0.7rem;
+  line-height: 2em;
+  border-radius: 0.1em;
+  background-color: #fafafa;
+  text-align: center;
+  background-color: #D8E1ED;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+* html .wrapper .head .search-box #search,
+* body .wrapper .head .search-box #search {
+  position: absolute;
+  width: 91%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 0.5em;
+  outline: none;
+  border: none;
+  background-color: #D8E1ED;
+}
+* html .wrapper .head .search-box #submit,
+* body .wrapper .head .search-box #submit {
+  position: absolute;
+  margin-top: 0.1rem;
+  width: 9%;
+  height: 77%;
+  display: inline-block;
+  right: 0;
+  top: 0;
+  outline: none;
+  border: none;
+  background: url("../image/icon_sosuo_mian.png") 100% 100% / cover no-repeat;
+}
+* html .wrapper #bookList,
+* body .wrapper #bookList {
+  position: absolute;
+  left: 0.2rem;
+  top: 1.1rem;
+  width: 1.6rem;
+  height: 4.7rem;
+  border: 1px solid #fff;
+  background-color: #8aa6d0;
+  z-index: 1000;
+  display: none;
+}
+* html .wrapper #bookList .list,
+* body .wrapper #bookList .list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+* html .wrapper #bookList .list li,
+* body .wrapper #bookList .list li {
+  flex: 1;
+  line-height: 5px;
+  padding-left: 0.1rem;
+  border-bottom: 1px solid #fff;
+}
+* html .wrapper #bookList .list li a,
+* body .wrapper #bookList .list li a {
+  color: #FFF;
+  font-size: 0.28rem;
+}
+* html .wrapper #bookList:before,
+* body .wrapper #bookList:before {
+  display: flex;
+  content: '';
+  width: 0;
+  height: 0;
+  border-width: 0.25rem;
+  border-style: solid;
+  margin-top: -0.5rem;
+  margin-left: 0.2rem;
+  border-color: transparent transparent #fff transparent;
+}
+* html .wrapper #bookList.active,
+* body .wrapper #bookList.active {
+  display: block;
+}
+* html .wrapper .content,
+* body .wrapper .content {
+  position: absolute;
+  top: 1.1rem;
+  width: 100%;
+  height: 84%;
+}
+* html .wrapper .content #slide-box,
+* body .wrapper .content #slide-box {
+  width: 100%;
+  height: 4rem;
+}
+* html .wrapper .content .recommend,
+* body .wrapper .content .recommend {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+* html .wrapper .content .recommend .hot,
+* body .wrapper .content .recommend .hot {
+  width: 100%;
+  height: 0.7rem;
+  line-height: 0.4rem;
+  background-color: #ffffff;
+  color: #000000;
+  letter-spacing: 0.1rem;
+  font-size: 0.3em;
+  font-weight: bolder;
+  padding: 0.1rem;
+  margin-bottom: -0.4rem;
+  text-align: left;
+  border: 1px solid #bbbbbb;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+* html .wrapper .content .recommend .hot .fire,
+* body .wrapper .content .recommend .hot .fire {
+  position: absolute;
+  left: 1.7rem;
+  top: 0;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  background: url("../image/hot.png") 100% 100% / cover no-repeat;
+}
+* html .wrapper .content .recommend .bookBox,
+* body .wrapper .content .recommend .bookBox {
+  width: 100%;
+  height: 8rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+* html .wrapper .content .recommend .bookBox .bookContent,
+* body .wrapper .content .recommend .bookBox .bookContent {
+  margin-top: 0.3rem;
+  margin-left: 0;
+  width: 100%;
+  height: auto;
+}
+* html .wrapper .content .recommend .bookBox .bookContent .item,
+* body .wrapper .content .recommend .bookBox .bookContent .item {
+  width: 100%;
+  height: 2.64rem;
+  line-height: 0.4rem;
+  display: flex;
+  background-color: #fafafa;
+  color: #101010;
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+* html .wrapper .content .recommend .bookBox .bookContent .item .bookImg,
+* body .wrapper .content .recommend .bookBox .bookContent .item .bookImg {
+  width: 1.7rem;
+  height: 2.24rem;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+* html .wrapper .content .recommend .bookBox .bookContent .item .bookImg img,
+* body .wrapper .content .recommend .bookBox .bookContent .item .bookImg img {
+  width: 100%;
+  height: 100%;
+}
+* html .wrapper .content .recommend .bookBox .bookContent .item .bookInfo,
+* body .wrapper .content .recommend .bookBox .bookContent .item .bookInfo {
+  float: left;
+  width: calc(100% - 1.7rem);
+}
+* html .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part1,
+* body .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part1 {
+  width: 100%;
+  height: 0.62rem;
+}
+* html .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part1 .bookName,
+* body .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part1 .bookName {
+  display: block;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+  width: 2.52rem;
+  height: 0.52rem;
+  color: #101010;
+  font-size: 0.36rem;
+  float: left;
+  text-align: left;
+}
+* html .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part1 .bookType,
+* body .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part1 .bookType {
+  display: block;
+  float: left;
+  width: 0.84rem;
+  height: 0.4rem;
+  margin-left: 1.7rem;
+  margin-top: 0.2rem;
+  color: #101010;
+  font-size: 0.28rem;
+}
+* html .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part2,
+* body .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part2 {
+  width: 100%;
+  height: calc(100% - 0.62rem);
+}
+* html .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part2 .author,
+* body .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part2 .author {
+  width: 2.2rem;
+  height: 0.34rem;
+  color: #a0a2a1;
+  font-size: 0.24rem;
+  margin-left: -2.7rem;
+}
+* html .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part2 .note,
+* body .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part2 .note {
+  width: 1rem;
+  height: 0.4rem;
+  color: #a0a2a1;
+  font-size: 0.24rem;
+  margin-left: 1.7rem;
+}
+* html .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part2 .price,
+* body .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part2 .price {
+  width: 0.74rem;
+  height: 0.52rem;
+  display: block;
+  color: #e51c23;
+  font-size: 0.34rem;
+  margin-left: 0.5rem;
+  margin-top: 0.9rem;
+}
+* html .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part2 .oriprice,
+* body .wrapper .content .recommend .bookBox .bookContent .item .bookInfo .part2 .oriprice {
+  display: block;
+  float: left;
+  width: 1.44rem;
+  height: 0.46rem;
+  color: #101010;
+  font-size: 0.26rem;
+  margin-left: 1.5rem;
+  margin-top: -0.5rem;
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=index.css.map */

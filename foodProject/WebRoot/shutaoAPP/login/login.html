@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>登陆</title>
+    <!--头部适配-->
+    <meta name="description" content="" />
+    <meta name="viewport"
+        content="minimal-ui, initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name='apple-touch-fullscreen' content='yes'>
+    <meta name="full-screen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="keywords" content="" />
+    <!--公共样式-->
+    <link rel="stylesheet" href="../css/public.css" />
+    <!--单功能样式-->
+    <link rel="stylesheet" href="../css/login.css" />
+    <!--全局样式(清除默认样式)-->
+    <link rel="stylesheet" href="../css/main.css" />
+</head>
+<!--html内容-->
+
+<body>
+    <div class="public">
+        <!-- [public]公共样式 -->
+        <div class="title">登陆</div>
+        <form id="login" action="" class="login">
+            <!-- [login]登陆列表 -->
+            <div class="public_ipt"><input type="text" placeholder="输入手机号"></div>
+            <div class="public_ipt"><input type="text" placeholder="输入密码"></div>
+            <div class="public_p">
+                <p>密码或手机号错误，请重新输入</p>
+            </div>
+            <div class="public_register">
+                <a href="../register/register.html" class="fl">开始注册</a>
+                <a href="../password/forgetPassword.html" class="fr">忘记密码?</a>
+            </div>
+            <div class="public_btn">
+                <button id="public_login" class=""><a href="../index.html">登录</a></button>
+            </div>
+        </form>
+        <div class="public_footer">
+            <p><a href="../code/code.html">手机验证码登录</a></p>
+            <p><input type="checkbox" name="true" value="true" checked="checked" id="ser-input"><a href="service.html">阅读并同意用户服务协议</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="../js/jquery-3.3.1.js"></script>
+<script src="../js/rem.js"></script>

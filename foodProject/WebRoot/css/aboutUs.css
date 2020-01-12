@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* html,
+* body {
+  width: 100%;
+  height: 100%;
+}
+* html #aboutUs,
+* body #aboutUs {
+  width: 100%;
+  height: 100%;
+  background-color: #F7F7F7;
+}
+* html #aboutUs .aboutUs-head,
+* body #aboutUs .aboutUs-head {
+  position: relative;
+  width: 100%;
+  height: 1rem;
+  color: #e8eaee;
+  font-size: 0.4rem;
+  text-align: center;
+  padding-top: 0.25rem;
+  background-color: #8aa6d0;
+}
+* html #aboutUs .aboutUs-head .back-to-personal,
+* body #aboutUs .aboutUs-head .back-to-personal {
+  position: absolute;
+  left: 0.32rem;
+  top: 0.4rem;
+  display: inline-block;
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url("../image/ico_left_arrow.png") 100% 100% / cover no-repeat;
+}
+/*# sourceMappingURL=aboutUs.css.map */

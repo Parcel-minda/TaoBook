@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* html,
+* body {
+  width: 100%;
+  height: 100%;
+}
+* html .pers,
+* body .pers {
+  width: 100vw;
+  height: 100vh;
+  background-color: #E8EAEE;
+}
+* html .pers .header,
+* body .pers .header {
+  width: 100%;
+  height: 1.1rem;
+  background-color: #8aa6d0;
+  display: flex;
+  align-items: center;
+}
+* html .pers .header .per,
+* body .pers .header .per {
+  width: 0.3rem;
+  height: 0.3rem;
+  margin-left: 0.4rem;
+  background: url("../image/icon_personal.png") 100% 100% / cover no-repeat;
+}
+* html .pers .header .per-center,
+* body .pers .header .per-center {
+  margin-left: 0.22rem;
+  color: #ffffff;
+  font-size: 0.3rem;
+}
+* html .pers .content-list,
+* body .pers .content-list {
+  width: 100%;
+}
+* html .pers .content-list .head-photo,
+* body .pers .content-list .head-photo {
+  width: 100%;
+  height: 2.8rem;
+  display: flex;
+  background-color: #ffffff;
+  border-bottom: 1px solid #bbbbbb;
+}
+* html .pers .content-list .head-photo .photo,
+* body .pers .content-list .head-photo .photo {
+  width: 34%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* html .pers .content-list .head-photo .photo img,
+* body .pers .content-list .head-photo .photo img {
+  width: 2.06rem;
+  height: 2.06rem;
+  background: green;
+  border-radius: 50%;
+}
+* html .pers .content-list .head-photo .per-data,
+* body .pers .content-list .head-photo .per-data {
+  width: 66%;
+}
+* html .pers .content-list .head-photo .per-data .nickname,
+* body .pers .content-list .head-photo .per-data .nickname {
+  width: 100%;
+  font-size: 0.56rem;
+  color: #101010;
+  font-weight: bold;
+  margin-top: 0.54rem;
+}
+* html .pers .content-list .head-photo .per-data .signature,
+* body .pers .content-list .head-photo .per-data .signature {
+  width: 100%;
+  font-size: 0.32rem;
+  color: #999999;
+  font-weight: normal;
+  margin-top: 0.32rem;
+}
+* html .pers .content-list .pub-and-don,
+* body .pers .content-list .pub-and-don {
+  width: 100%;
+  height: 2.38rem;
+  display: flex;
+  background: #ffffff;
+  border-bottom: 1px solid #bbbbbb;
+}
+* html .pers .content-list .pub-and-don .pub-one,
+* body .pers .content-list .pub-and-don .pub-one {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+* html .pers .content-list .pub-and-don .pub-one .pub-img,
+* body .pers .content-list .pub-and-don .pub-one .pub-img {
+  width: 100%;
+  height: 0.7rem;
+  display: flex;
+  justify-content: center;
+}
+* html .pers .content-list .pub-and-don .pub-one .pub-img img,
+* body .pers .content-list .pub-and-don .pub-one .pub-img img {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+* html .pers .content-list .pub-and-don .pub-one .pub-text,
+* body .pers .content-list .pub-and-don .pub-one .pub-text {
+  width: 100%;
+  font-size: 0.36rem;
+  color: #101010;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+* html .pers .content-list .pub-and-don .pub-border,
+* body .pers .content-list .pub-and-don .pub-border {
+  border-right: 1px solid #bbbbbb;
+}
+* html .pers .content-list .list,
+* body .pers .content-list .list {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+* html .pers .content-list .list ul,
+* body .pers .content-list .list ul {
+  width: 100%;
+}
+* html .pers .content-list .list ul li,
+* body .pers .content-list .list ul li {
+  width: 100%;
+  height: 1.2rem;
+  border-bottom: 1px solid #bbbbbb;
+  display: flex;
+  justify-content: space-between;
+}
+* html .pers .content-list .list ul li .item,
+* body .pers .content-list .list ul li .item {
+  width: 100%;
+  display: flex;
+}
+* html .pers .content-list .list ul li .li-one,
+* body .pers .content-list .list ul li .li-one {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* html .pers .content-list .list ul li .li-one img,
+* body .pers .content-list .list ul li .li-one img {
+  width: 0.48rem;
+  height: 0.48rem;
+}
+* html .pers .content-list .list ul li .li-two,
+* body .pers .content-list .list ul li .li-two {
+  width: 60%;
+  height: 100%;
+  line-height: 1.2rem;
+  font-weight: bold;
+  font-size: 0.36rem;
+  color: #101010;
+}
+* html .pers .content-list .list ul li .li-three,
+* body .pers .content-list .list ul li .li-three {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* html .pers .content-list .list ul li .li-three img,
+* body .pers .content-list .list ul li .li-three img {
+  width: 0.48rem;
+  height: 0.48rem;
+}
+/*# sourceMappingURL=personal.css.map */

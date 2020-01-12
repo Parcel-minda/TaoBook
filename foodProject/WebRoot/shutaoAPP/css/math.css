@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* html,
+* body {
+  width: 100%;
+  height: 100%;
+}
+* html #math,
+* body #math {
+  width: 100%;
+  height: 100%;
+  background-color: #F7F7F7;
+}
+* html #math .math-head,
+* body #math .math-head {
+  position: relative;
+  width: 100%;
+  height: 1rem;
+  color: #e8eaee;
+  font-size: 0.4rem;
+  text-align: center;
+  padding-top: 0.25rem;
+  background-color: #8aa6d0;
+}
+* html #math .math-head .back-to-index,
+* body #math .math-head .back-to-index {
+  position: absolute;
+  left: 0.32rem;
+  top: 0.4rem;
+  display: inline-block;
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url("../image/ico_left_arrow.png") 100% 100% / cover no-repeat;
+}
+* html #math .bookBox,
+* body #math .bookBox {
+  width: 100%;
+  height: calc(100% - 1rem);
+}
+* html #math .bookBox .bookContent,
+* body #math .bookBox .bookContent {
+  margin-top: 0.25rem;
+  width: 100%;
+  height: auto;
+}
+* html #math .bookBox .bookContent .item,
+* body #math .bookBox .bookContent .item {
+  width: 100%;
+  height: 2.64rem;
+  line-height: 0.4rem;
+  display: flex;
+  background-color: #fafafa;
+  color: #101010;
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+* html #math .bookBox .bookContent .item .bookImg,
+* body #math .bookBox .bookContent .item .bookImg {
+  width: 1.7rem;
+  height: 2.24rem;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+* html #math .bookBox .bookContent .item .bookImg img,
+* body #math .bookBox .bookContent .item .bookImg img {
+  width: 100%;
+  height: 100%;
+}
+* html #math .bookBox .bookContent .item .bookInfo,
+* body #math .bookBox .bookContent .item .bookInfo {
+  float: left;
+  width: clac(98.3%);
+}
+* html #math .bookBox .bookContent .item .bookInfo .part1,
+* body #math .bookBox .bookContent .item .bookInfo .part1 {
+  width: 100%;
+  height: 0.62rem;
+}
+* html #math .bookBox .bookContent .item .bookInfo .part1 .bookName,
+* body #math .bookBox .bookContent .item .bookInfo .part1 .bookName {
+  display: block;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+  width: 2.52rem;
+  height: 0.52rem;
+  color: #101010;
+  font-size: 0.36rem;
+  float: left;
+  text-align: left;
+}
+* html #math .bookBox .bookContent .item .bookInfo .part1 .bookType,
+* body #math .bookBox .bookContent .item .bookInfo .part1 .bookType {
+  display: block;
+  float: left;
+  width: 0.84rem;
+  height: 0.4rem;
+  margin-left: 1.7rem;
+  margin-top: 0.2rem;
+  color: #101010;
+  font-size: 0.28rem;
+}
+* html #math .bookBox .bookContent .item .bookInfo .part2,
+* body #math .bookBox .bookContent .item .bookInfo .part2 {
+  width: 100%;
+  height: calc(100% - 0.62rem);
+}
+* html #math .bookBox .bookContent .item .bookInfo .part2 .author,
+* body #math .bookBox .bookContent .item .bookInfo .part2 .author {
+  width: 2.2rem;
+  height: 0.34rem;
+  color: #a0a2a1;
+  font-size: 0.24rem;
+  margin-left: -2.7rem;
+}
+* html #math .bookBox .bookContent .item .bookInfo .part2 .note,
+* body #math .bookBox .bookContent .item .bookInfo .part2 .note {
+  width: 1rem;
+  height: 0.4rem;
+  color: #a0a2a1;
+  font-size: 0.24rem;
+  margin-left: 1.7rem;
+}
+* html #math .bookBox .bookContent .item .bookInfo .part2 .price,
+* body #math .bookBox .bookContent .item .bookInfo .part2 .price {
+  width: 0.74rem;
+  height: 0.52rem;
+  display: block;
+  color: #e51c23;
+  font-size: 0.34rem;
+  margin-left: 0.5rem;
+  margin-top: 0.9rem;
+}
+* html #math .bookBox .bookContent .item .bookInfo .part2 .oriprice,
+* body #math .bookBox .bookContent .item .bookInfo .part2 .oriprice {
+  display: block;
+  float: left;
+  width: 1.44rem;
+  height: 0.46rem;
+  color: #101010;
+  font-size: 0.26rem;
+  margin-left: 1.5rem;
+  margin-top: -0.5rem;
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=math.css.map */

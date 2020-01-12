@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* html,
+* body {
+  width: 100%;
+  height: 100%;
+}
+* html .mySend,
+* body .mySend {
+  width: 100%;
+  height: 100%;
+  background-color: #F7F7F7;
+}
+* html .mySend .mySend-head,
+* body .mySend .mySend-head {
+  position: relative;
+  width: 100%;
+  height: 1rem;
+  color: #e8eaee;
+  font-size: 0.4rem;
+  text-align: center;
+  padding-top: 0.25rem;
+  background-color: #8aa6d0;
+}
+* html .mySend .mySend-head .back-to-personal,
+* body .mySend .mySend-head .back-to-personal {
+  position: absolute;
+  left: 0.32rem;
+  top: 0.4rem;
+  display: inline-block;
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url("../image/ico_left_arrow.png") 100% 100% / cover no-repeat;
+}
+* html .mySend .mySend-head .manage,
+* body .mySend .mySend-head .manage {
+  width: 0.8rem;
+  height: 0.56rem;
+  color: #e6e6e6;
+  font-size: 0.4rem;
+  margin-left: 6.3rem;
+  margin-top: -0.5rem;
+}
+* html .mySend .bookBox,
+* body .mySend .bookBox {
+  width: 100%;
+  height: calc(100% - 1rem);
+}
+* html .mySend .bookBox .check,
+* body .mySend .bookBox .check {
+  display: none;
+}
+* html .mySend .bookBox .bookContent,
+* body .mySend .bookBox .bookContent {
+  margin-bottom: 0.25rem;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+* html .mySend .bookBox .bookContent .item,
+* body .mySend .bookBox .bookContent .item {
+  width: 100%;
+  height: 2.64rem;
+  line-height: 0.4rem;
+  display: flex;
+  background-color: #fafafa;
+  color: #101010;
+  font-size: 0.28rem;
+  text-align: center;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+* html .mySend .bookBox .bookContent .item .bookImg,
+* body .mySend .bookBox .bookContent .item .bookImg {
+  width: 1.7rem;
+  height: 2.24rem;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+* html .mySend .bookBox .bookContent .item .bookImg img,
+* body .mySend .bookBox .bookContent .item .bookImg img {
+  width: 100%;
+  height: 100%;
+}
+* html .mySend .bookBox .bookContent .item .bookInfo,
+* body .mySend .bookBox .bookContent .item .bookInfo {
+  float: left;
+  width: clac(98.3%);
+}
+* html .mySend .bookBox .bookContent .item .bookInfo .part1,
+* body .mySend .bookBox .bookContent .item .bookInfo .part1 {
+  width: 100%;
+  height: 0.62rem;
+  position: relative;
+}
+* html .mySend .bookBox .bookContent .item .bookInfo .part1 .bookName,
+* body .mySend .bookBox .bookContent .item .bookInfo .part1 .bookName {
+  display: block;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+  width: 2.52rem;
+  height: 0.52rem;
+  color: #101010;
+  font-size: 0.36rem;
+  float: left;
+  text-align: left;
+}
+* html .mySend .bookBox .bookContent .item .bookInfo .part1 .bookType,
+* body .mySend .bookBox .bookContent .item .bookInfo .part1 .bookType {
+  position: absolute;
+  left: 2.3rem;
+  top: 0.1rem;
+  display: block;
+  float: left;
+  width: 0.84rem;
+  height: 0.4rem;
+  margin-left: 1.7rem;
+  margin-top: 0.2rem;
+  color: #101010;
+  font-size: 0.28rem;
+}
+* html .mySend .bookBox .bookContent .item .bookInfo .part2,
+* body .mySend .bookBox .bookContent .item .bookInfo .part2 {
+  width: 100%;
+  height: calc(100% - 0.62rem);
+  position: relative;
+}
+* html .mySend .bookBox .bookContent .item .bookInfo .part2 .author,
+* body .mySend .bookBox .bookContent .item .bookInfo .part2 .author {
+  width: 2.2rem;
+  height: 0.34rem;
+  color: #a0a2a1;
+  font-size: 0.24rem;
+  margin-left: -2.7rem;
+}
+* html .mySend .bookBox .bookContent .item .bookInfo .part2 .note,
+* body .mySend .bookBox .bookContent .item .bookInfo .part2 .note {
+  width: 1rem;
+  height: 0.4rem;
+  color: #a0a2a1;
+  font-size: 0.24rem;
+  position: absolute;
+  left: 3.9rem;
+  top: 0.2rem;
+}
+* html .mySend .bookBox .bookContent .item .bookInfo .part2 .price,
+* body .mySend .bookBox .bookContent .item .bookInfo .part2 .price {
+  width: 0.74rem;
+  height: 0.52rem;
+  display: block;
+  color: #e51c23;
+  font-size: 0.34rem;
+  margin-left: 0.5rem;
+  margin-top: 0.9rem;
+}
+* html .mySend .bookBox .bookContent .item .bookInfo .part2 .oriprice,
+* body .mySend .bookBox .bookContent .item .bookInfo .part2 .oriprice {
+  display: block;
+  float: left;
+  width: 1.44rem;
+  height: 0.46rem;
+  color: #101010;
+  font-size: 0.26rem;
+  margin-left: 1.5rem;
+  margin-top: -0.5rem;
+  text-decoration: line-through;
+}
+* html .mySend .bookBox .bookFooter,
+* body .mySend .bookBox .bookFooter {
+  display: none;
+}
+* html .mySend .bookBox.input-box .check,
+* body .mySend .bookBox.input-box .check {
+  width: 0.56rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  margin-left: 0.2rem;
+  margin-top: 1.2rem;
+  float: left;
+  display: block;
+  border: 1px solid #bbbbbb;
+}
+* html .mySend .bookBox.input-box .bookContent,
+* body .mySend .bookBox.input-box .bookContent {
+  float: left;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+  width: calc(100% - 1.5rem);
+}
+* html .mySend .bookBox.input-box .bookContent .item .bookInfo .part1 .bookType,
+* body .mySend .bookBox.input-box .bookContent .item .bookInfo .part1 .bookType {
+  left: 1.5rem;
+}
+* html .mySend .bookBox.input-box .bookContent .item .bookInfo .part2 .note,
+* body .mySend .bookBox.input-box .bookContent .item .bookInfo .part2 .note {
+  left: 3rem;
+}
+* html .mySend .bookBox.input-box .bookFooter,
+* body .mySend .bookBox.input-box .bookFooter {
+  display: block;
+  width: 100%;
+  height: 0.92rem;
+  line-height: 0.92rem;
+  position: fixed;
+  bottom: 0;
+  font-size: 0.28rem;
+  border-top: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbbb;
+  background-color: #FBF8F8;
+  flex-direction: row;
+  color: #A6A2A2;
+}
+* html .mySend .bookBox.input-box .bookFooter .checkAll,
+* body .mySend .bookBox.input-box .bookFooter .checkAll {
+  width: 0.56rem;
+  height: 0.6rem;
+  margin-left: 0.2rem;
+  border: 1px solid #bbbbbb;
+}
+* html .mySend .bookBox.input-box .bookFooter #delBook,
+* body .mySend .bookBox.input-box .bookFooter #delBook {
+  margin-left: 4.5rem;
+  width: 1.6rem;
+  height: 0.6rem;
+  font-size: 0.24rem;
+  border-radius: 0.1rem;
+  color: white;
+  background-color: #ff9800;
+  text-align: center;
+  border: 1px solid #bbbbbb;
+}
+/*# sourceMappingURL=my-send.css.map */

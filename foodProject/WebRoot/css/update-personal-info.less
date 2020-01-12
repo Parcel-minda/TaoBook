@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  html, body {
+    width: 100%;
+    height: 100%;
+
+    .update-info {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      //background-color: rgba(230,230,230,1);
+      .update-head {
+        position: relative;
+        width: 100%;
+        height: 1rem;
+        color: rgba(232, 234, 238, 1);
+        font-size: 0.4rem;
+        text-align: center;
+        padding-top: 0.25rem;
+        background-color: rgba(138, 166, 208, 1);
+
+        .back-to-personal {
+          position: absolute;
+          left: 0.32rem;
+          top: 0.4rem;
+          display: inline-block;
+          width: 0.38rem;
+          height: 0.38rem;
+          background: url("../image/ico_left_arrow.png") 100% 100% /cover no-repeat;
+        }
+      }
+
+      .update-content {
+        width: 100%;
+
+        .update-photo {
+          width: 100%;
+          margin-top: 0.5rem;
+
+          .box-photo {
+            width: 2.36rem;
+            height: 2.42rem;
+            //border: 1px solid #ccc;
+            margin-left: 2.6rem;
+
+            img {
+              width: 100%;
+              height: 100%;
+              border-radius: 50%;
+            }
+          }
+
+          .pic-tips {
+            width: 100%;
+            height: 0.4rem;
+            line-height: 0.4rem;
+            text-align: center;
+            color: rgba(202, 195, 195, 1);
+            font-size: 0.28rem;
+            margin-top: 0.15rem;
+
+          }
+
+        }
+
+        .info-form {
+          width: 100%;
+
+          .box-input {
+            width: 6rem;
+            margin-left: 0.7rem;
+            //border: 1px solid black;
+            label {
+              //left: 28px;
+              //top: 270px;
+              width: 1.8rem;
+              height: 0.52rem;
+              color: rgba(16, 16, 16, 1);
+              font-size: 0.36rem;
+              text-align: left;
+            }
+
+            input, #sex {
+              width: 3.6rem;
+              height: 0.6rem;
+              margin-top: 0.2rem;
+              margin-left: -0.2rem;
+              outline: none;
+            }
+          }
+
+          #submit-info {
+            margin-left: 1.26rem;
+            margin-top: 0.6rem;
+            width: 5.28rem;
+            height: 0.88rem;
+            line-height: 0.4rem;
+            border-radius: 5px;
+            background-color: rgba(138, 166, 208, 1);
+            color: #ffffff;
+            font-size: 0.28rem;
+            text-align: center;
+            border: 1px solid rgba(5, 5, 5, 0.08);
+          }
+
+        }
+      }
+
+      .tips-box {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: none;
+        .mask {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(0, 0, 0, 0.3);
+          opacity: 0.6;
+        }
+
+        .tips {
+          position: absolute;
+          left: 1.2rem;
+          width: 5rem;
+          height: 3.3rem;
+          border: 1px solid #ddd;
+          margin: 3.5rem auto;
+          background-color: #fff;
+          .img {
+            width: 1rem;
+            height: 1rem;
+            margin: 0 auto;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          p {
+            font-size: 0.38rem;
+            text-align: center;
+            margin-top: 0.4rem;
+            margin-left: 0.2rem;
+          }
+          a{
+            display: block;
+            width: 2rem;
+            height: 0.8rem;
+            text-align: center;
+            font-size: 0.46rem;
+            background-color: #8aa6d0;
+            color: #fff;
+            margin: 0.3rem auto;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}

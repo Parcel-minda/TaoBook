@@ -1,0 +1,85 @@
+
+
+/* ===============注册================ */
+.public .register{
+	position: relative;
+}
+.public .go_back{
+	position: absolute;
+	left: 25px;
+	top: 18px;
+	width: 24px;
+	height: 24px;
+}
+.public .go_back a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 28px;
+	color: white;
+	font-weight: bold;
+}
+.public .register_list{
+	display: block;
+	padding: 20px 0;
+	width: 100%;
+	font-size: 18px;
+}
+.public .register{
+	margin: auto;
+	width: 90%;
+}
+.public .register .public_ipt{
+	position: relative;
+	margin-bottom: 10px;
+}
+.public .register .public_ipt > div{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 50px;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	color: rgba(229, 28, 35, .6);
+	font-size: 14px;
+}
+.public .register .public_btn{
+	margin: 0;
+}
+.public .register .public_p > p {
+	display: none;
+}
+/* .public #public_register{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0);
+	color: white;
+	border: none;
+	outline: none;
+	font-size: 18px;
+} */
+
+/* 插件按钮 */
+.confirm,
+.cancel {
+	padding: 2px 6px;
+}
+
+
+/* 验证 */
+.test_p{
+	display: none;
+	margin: 5px auto;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    color: rgba(229, 28, 35, .6);
+    font-size: 14px;
+}
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  html, body {
+    width: 100vw;
+    height: 100vh;
+
+    #donateBook{
+      width: 100%;
+      height: 100%;
+      background-color: #F7F7F7;
+
+      .donateBook-head{
+        position: relative;
+        width: 100%;
+        height: 1rem;
+        color: rgba(232, 234, 238, 1);
+        font-size: 0.4rem;
+        text-align: center;
+        padding-top: 0.25rem;
+        background-color: rgba(138, 166, 208, 1);
+
+        .back-to-index {
+          position: absolute;
+          left: 0.32rem;
+          top: 0.4rem;
+          display: inline-block;
+          width: 0.38rem;
+          height: 0.38rem;
+          background: url("../image/ico_left_arrow.png") 100% 100% /cover no-repeat;
+        }
+      }
+      .donateBook-form{
+        width: 81%;
+        height: calc(100% - 1rem);
+        margin: 0.2rem auto;
+        display: flex;
+        flex-direction: column;
+        //justify-content: center;
+        //align-items: center;
+        .box-input{
+          width: 100%;
+          height: 0.6rem;
+          margin-bottom: 0.1rem;
+          label{
+            font-size: 0.36rem;
+            span{
+              font-size: 0.28rem;
+              color: #5E5C5C;
+            }
+          }
+          input{
+            width: 3.9rem;
+            height: 0.5rem;
+            outline: none;
+            border: 1px solid #ddd;
+          }
+          .pic-file{
+            width: 1.3rem;
+            height: 1.3rem;
+            margin-top: 0.4rem;
+            margin-left: 0.5rem;
+            background: url("../image/pic-file.png") 100% 100% /cover no-repeat;
+          }
+          #bookphoto{
+            opacity: 0;
+          }
+          select{
+            width: 3.9rem;
+            height: 0.5rem;
+            font-size: 0.25rem;
+            color: #999999;
+            border-radius: 0.1rem;
+            border: 1px solid #ddd;
+          }
+          textarea{
+            width: 90%;
+            margin-left: 0.3rem;
+            padding: 0.2rem;
+            outline: none;
+            border: 1px solid #ddd;
+            height: 1.82rem;
+          }
+        }
+        .uploadPhoto{
+          height: 3rem;
+          margin-top: 2rem;
+          .pic-file {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-top: -0.3rem;
+            margin-left: 1.7rem;
+            background: url("../image/book.png") 100% 100% / cover no-repeat;
+          }
+          #tips{
+            width: 2.7rem;
+            height: 0.34rem;
+            color: rgba(0, 0, 0, 0.45);
+            font-size: 0.28rem;
+            margin-left: 1.2rem;
+          }
+        }
+        #submit-donateBook{
+          width: 4.5rem;
+          height: 0.8rem;
+          line-height: 0.4rem;
+          border-radius: 0.1rem;
+          background-color: rgba(138, 166, 208, 1);
+          color: #fff;
+          font-size: 0.38rem;
+          margin: 1rem auto;
+          text-align: center;
+          border: 1px solid rgba(5, 5, 5, 0.08);
+        }
+      }
+    }
+    .tips-box {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: none;
+      .mask {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        opacity: 0.6;
+      }
+
+      .tips {
+        position: absolute;
+        left: 1.2rem;
+        width: 5rem;
+        height: 3.3rem;
+        border: 1px solid #ddd;
+        margin: 3.5rem auto;
+        background-color: #fff;
+        .img {
+          width: 1rem;
+          height: 1rem;
+          margin: 0 auto;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        p {
+          font-size: 0.38rem;
+          text-align: center;
+          margin-top: 0.4rem;
+          margin-left: 0.2rem;
+        }
+        a{
+          display: block;
+          width: 2rem;
+          height: 0.8rem;
+          text-align: center;
+          font-size: 0.46rem;
+          background-color: #8aa6d0;
+          color: #fff;
+          margin: 0.3rem auto;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+[
+	{
+		"bookid" : "a001",
+		"img" : "image/p1.jpg",
+		"bookname" : "数据库系统概论",
+		"booktype" : "理工类",
+		"note" : "含有笔记",
+		"author" : "刘鹏",
+		"press" : "电子工业出版社",
+		"oriprice" : 39,
+		"price" : 18
+	},
+	{
+		"bookid" : "a002",
+		"img" : "image/p2.jpg",
+		"bookname" : "概率论",
+		"booktype" : "理工类",
+		"note" : "轻微勾画",
+		"author" : "王红晟",
+		"press" : "湖北大学出版社",
+		"oriprice" : 39,
+		"price" : 18
+	},
+	{
+		"bookid" : "t001",
+		"img" : "image/p3.jpg",
+		"bookname" : "人机交互",
+		"booktype" : "IT类",
+		"note" : "大量笔记",
+		"author" : "骆斌",
+		"press" : "机械工业出版社",
+		"oriprice" : 27,
+		"price" : 18
+	},
+	{
+		"bookid" : "t002",
+		"img" : "image/p4.jpg",
+		"bookname" : "人机交互",
+		"booktype" : "IT类",
+		"note" : "大量笔记",
+		"author" : "骆斌",
+		"press" : "机械工业出版社",
+		"oriprice" : 27,
+		"price" : 18
+	},
+	{
+		"bookid" : "w001",
+		"img" : "image/p5.jpg",
+		"bookname" : "史记",
+		"booktype" : "文史类",
+		"note" : "轻微勾画",
+		"author" : "司马迁",
+		"press" : "中华书局",
+		"oriprice" : 40,
+		"price" : 19
+	},
+	{
+		"bookid" : "w002",
+		"img" : "image/p6.jpg",
+		"bookname" : "人间词话",
+		"booktype" : "文史类",
+		"note" : "几乎全新",
+		"author" : "王国维",
+		"press" : "上海古籍出版社",
+		"oriprice" : 32,
+		"price" : 16
+	}
+]

@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  html, body {
+    width: 100%;
+    height: 100%;
+
+    .mySend {
+      width: 100%;
+      height: 100%;
+      background-color: #F7F7F7;
+
+      .mySend-head {
+        position: relative;
+        width: 100%;
+        height: 1rem;
+        color: rgba(232, 234, 238, 1);
+        font-size: 0.4rem;
+        text-align: center;
+        padding-top: 0.25rem;
+        background-color: rgba(138, 166, 208, 1);
+
+        .back-to-personal {
+          position: absolute;
+          left: 0.32rem;
+          top: 0.4rem;
+          display: inline-block;
+          width: 0.38rem;
+          height: 0.38rem;
+          background: url("../image/ico_left_arrow.png") 100% 100% /cover no-repeat;
+        }
+
+        .manage {
+          width: 0.8rem;
+          height: 0.56rem;
+          color: rgba(230, 230, 230, 1);
+          font-size: 0.4rem;
+          margin-left: 6.3rem;
+          margin-top: -0.5rem;
+        }
+      }
+
+      .bookBox {
+        width: 100%;
+        height: calc(100% - 1rem);
+        .check{
+          display: none;
+        }
+        .bookContent {
+
+          //margin-top: 0.25rem;
+          //margin-left: 0.2rem;
+          margin-bottom: 0.25rem;
+          width: 100%;
+          height: auto;
+          box-sizing: border-box;
+
+          .item {
+            //left: 0px;
+            //top: 336px;
+            width: 100%;
+            height: 2.64rem;
+            line-height: 0.4rem;
+            display: flex;
+            //border-radius: 0px;
+            background-color: rgba(250, 250, 250, 1);
+            color: rgba(16, 16, 16, 1);
+            font-size: 0.28rem;
+            text-align: center;
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+
+            .bookImg {
+              width: 1.7rem;
+              height: 2.24rem;
+              margin-left: 0.2rem;
+              margin-top: 0.2rem;
+
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+
+            .bookInfo {
+              float: left;
+              width: clac(100%-1.7rem);
+
+              .part1 {
+                width: 100%;
+                height: 0.62rem;
+                position: relative;
+
+                .bookName {
+                  display: block;
+                  margin-left: 0.2rem;
+                  margin-top: 0.2rem;
+                  width: 2.52rem;
+                  height: 0.52rem;
+                  color: rgba(16, 16, 16, 1);
+                  font-size: 0.36rem;
+                  float: left;
+                  text-align: left;
+                }
+
+                .bookType {
+                  position: absolute;
+                  left: 2.3rem;
+                  top: 0.1rem;
+                  display: block;
+                  float: left;
+                  width: 0.84rem;
+                  height: 0.4rem;
+                  margin-left: 1.7rem;
+                  margin-top: 0.2rem;
+                  color: rgba(16, 16, 16, 1);
+                  font-size: 0.28rem;
+                }
+              }
+
+              .part2 {
+                width: 100%;
+                height: calc(100% - 0.62rem);
+                position: relative;
+
+                .author {
+                  width: 2.2rem;
+                  height: 0.34rem;
+                  color: rgba(160, 162, 161, 1);
+                  font-size: 0.24rem;
+                  margin-left: -2.7rem;
+                }
+
+                .note {
+                  width: 1rem;
+                  height: 0.4rem;
+                  color: rgba(160, 162, 161, 1);
+                  font-size: 0.24rem;
+                  //margin-left: 1.7rem;
+                  position: absolute;
+                  left: 3.9rem;
+                  top: 0.2rem;
+                }
+
+                .price {
+                  width: 0.74rem;
+                  height: 0.52rem;
+                  display: block;
+                  color: rgba(229, 28, 35, 1);
+                  font-size: 0.34rem;
+                  margin-left: 0.5rem;
+                  margin-top: 0.9rem;
+                }
+
+                .oriprice {
+                  display: block;
+                  float: left;
+                  width: 1.44rem;
+                  height: 0.46rem;
+                  color: rgba(16, 16, 16, 1);
+                  font-size: 0.26rem;
+                  margin-left: 1.5rem;
+                  margin-top: -0.5rem;
+                  text-decoration: line-through;
+                }
+              }
+
+            }
+          }
+        }
+        .bookFooter{
+          display: none;
+        }
+      }
+
+      .bookBox.input-box {
+        .check {
+          width: 0.56rem;
+          height: 0.6rem;
+          border-radius: 50%;
+          margin-left: 0.2rem;
+          margin-top: 1.2rem;
+          float: left;
+          display: block;
+          border: 1px solid rgba(187, 187, 187, 1);
+        }
+        .bookContent{
+          float: left;
+          margin-left: 0.2rem;
+          margin-top: 0.2rem;
+          width: calc(100% - 1.5rem);
+          .item .bookInfo .part1 .bookType{
+            left: 1.5rem;
+          }
+          .item .bookInfo .part2 .note{
+            left: 3rem;
+            }
+          }
+        .bookFooter{
+          display: block;
+          width: 100%;
+          height: 0.92rem;
+          line-height: 0.92rem;
+          position: fixed;
+          bottom: 0;
+          font-size: 0.28rem;
+          border-top: 1px solid rgba(187, 187, 187, 1);
+          border-bottom: 1px solid rgba(187, 187, 187, 1);
+          background-color: #FBF8F8;
+          flex-direction: row;
+          color: #A6A2A2;
+          .checkAll{
+            width: 0.56rem;
+            height: 0.6rem;
+            margin-left: 0.2rem;
+            border: 1px solid rgba(187, 187, 187, 1);
+          }
+          #delBook{
+            margin-left: 4.5rem;
+            width: 1.6rem;
+            height: 0.6rem;
+            font-size: 0.24rem;
+            border-radius: 0.1rem;
+            color: white;
+            background-color: rgba(255, 152, 0, 1);
+            text-align: center;
+            border: 1px solid rgba(187, 187, 187, 1);
+          }
+        }
+        }
+      }
+    }
+  }

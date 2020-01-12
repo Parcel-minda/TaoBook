@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* html,
+* body {
+  width: 100%;
+  height: 100%;
+}
+* html #like,
+* body #like {
+  width: 100%;
+  height: 100%;
+  background-color: #F7F7F7;
+}
+* html #like .like-head,
+* body #like .like-head {
+  position: relative;
+  width: 100%;
+  height: 1rem;
+  color: #e8eaee;
+  font-size: 0.4rem;
+  text-align: center;
+  padding-top: 0.25rem;
+  background-color: #8aa6d0;
+}
+* html #like .like-head .back-to-detail,
+* body #like .like-head .back-to-detail {
+  position: absolute;
+  left: 0.32rem;
+  top: 0.4rem;
+  display: inline-block;
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url("../image/ico_left_arrow.png") 100% 100% / cover no-repeat;
+}
+* html #like .like-content,
+* body #like .like-content {
+  width: 100%;
+  height: calc(100% - 1rem);
+}
+* html #like .like-content .tips,
+* body #like .like-content .tips {
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  font-size: 0.28rem;
+}
+* html #like .like-content .chat,
+* body #like .like-content .chat {
+  width: 100%;
+  height: calc(100% - 1.4rem);
+}
+* html #like .like-content .chat .list,
+* body #like .like-content .chat .list {
+  width: 100%;
+  float: left;
+}
+* html #like .like-content .chat .list .avitor,
+* body #like .like-content .chat .list .avitor {
+  margin-left: 0.14rem;
+  width: 1.02rem;
+  height: 1.1rem;
+}
+* html #like .like-content .chat .list .avitor img,
+* body #like .like-content .chat .list .avitor img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+* html #like .like-content .chat .list .text,
+* body #like .like-content .chat .list .text {
+  margin-left: 1.35rem;
+  width: 4.06rem;
+  padding: 0.2rem;
+  border-radius: 5px;
+  background-color: #f7f3f3;
+  color: #3e3a3a;
+  font-size: 0.28rem;
+  margin-top: -0.8rem;
+  border: 1px solid #bbbbbb;
+}
+* html #like .like-content .chat .list .text:before,
+* body #like .like-content .chat .list .text:before {
+  float: left;
+  display: block;
+  content: '';
+  width: 1px;
+  height: 1px;
+  border-width: 0.2rem;
+  border-style: solid;
+  border-color: transparent #f7f3f3 transparent transparent;
+  margin-left: -0.56rem;
+  margin-top: 0.1rem;
+}
+/*# sourceMappingURL=like.css.map */

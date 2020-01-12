@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* html,
+* body {
+  width: 100%;
+  height: 100%;
+}
+* html #service,
+* body #service {
+  width: 100%;
+  height: 100%;
+  background-color: #F7F7F7;
+}
+* html #service .service-head,
+* body #service .service-head {
+  position: relative;
+  width: 100%;
+  height: 1rem;
+  color: #e8eaee;
+  font-size: 0.4rem;
+  text-align: center;
+  padding-top: 0.25rem;
+  background-color: #8aa6d0;
+}
+* html #service .service-head .back-to-login,
+* body #service .service-head .back-to-login {
+  position: absolute;
+  left: 0.32rem;
+  top: 0.4rem;
+  display: inline-block;
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url("../image/ico_left_arrow.png") 100% 100% / cover no-repeat;
+}
+* html #service .service-content,
+* body #service .service-content {
+  width: 93%;
+  margin: 0.5rem auto;
+  font-size: 0.32rem;
+}
+* html #service .service-content .red,
+* body #service .service-content .red {
+  color: red;
+  font-weight: bolder;
+}
+* html #service .service-content .title,
+* body #service .service-content .title {
+  text-align: left;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+* html #service .service-content .text,
+* body #service .service-content .text {
+  margin-top: 0.3rem;
+  text-indent: 0.5rem;
+}
+* html #service .service-content .fir,
+* body #service .service-content .fir {
+  margin-top: 0.3rem;
+}
+/*# sourceMappingURL=service.css.map */

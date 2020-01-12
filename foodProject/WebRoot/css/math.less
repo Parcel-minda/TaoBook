@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  html, body {
+    width: 100%;
+    height: 100%;
+
+    #math {
+      width: 100%;
+      height: 100%;
+      background-color: #F7F7F7;
+
+      .math-head {
+        position: relative;
+        width: 100%;
+        height: 1rem;
+        color: rgba(232, 234, 238, 1);
+        font-size: 0.4rem;
+        text-align: center;
+        padding-top: 0.25rem;
+        background-color: rgba(138, 166, 208, 1);
+
+        .back-to-index {
+          position: absolute;
+          left: 0.32rem;
+          top: 0.4rem;
+          display: inline-block;
+          width: 0.38rem;
+          height: 0.38rem;
+          background: url("../image/ico_left_arrow.png") 100% 100% /cover no-repeat;
+        }
+      }
+      .bookBox{
+        width: 100%;
+        height: calc(100% - 1rem);
+        .bookContent{
+          margin-top: 0.25rem;
+          width: 100%;
+          height: auto;
+          .item{
+            //left: 0px;
+            //top: 336px;
+            width: 100%;
+            height: 2.64rem;
+            line-height: 0.4rem;
+            display: flex;
+            //border-radius: 0px;
+            background-color: rgba(250, 250, 250, 1);
+            color: rgba(16, 16, 16, 1);
+            font-size: 14px;
+            text-align: center;
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+            .bookImg{
+              width: 1.7rem;
+              height: 2.24rem;
+              margin-left: 0.2rem;
+              margin-top: 0.2rem;
+              img{
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .bookInfo{
+              float: left;
+              width: clac(100%-1.7rem);
+              .part1{
+                width: 100%;
+                height: 0.62rem;
+                .bookName{
+                  display: block;
+                  margin-left: 0.2rem;
+                  margin-top: 0.2rem;
+                  width: 2.52rem;
+                  height: 0.52rem;
+                  color: rgba(16, 16, 16, 1);
+                  font-size: 0.36rem;
+                  float: left;
+                  text-align: left;
+                }
+                .bookType{
+                  display: block;
+                  float: left;
+                  width: 0.84rem;
+                  height: 0.4rem;
+                  margin-left: 1.7rem;
+                  margin-top: 0.2rem;
+                  color: rgba(16, 16, 16, 1);
+                  font-size: 0.28rem;
+                }
+              }
+              .part2{
+                width: 100%;
+                height: calc(100% - 0.62rem);
+                .author{
+                  width: 2.2rem;
+                  height: 0.34rem;
+                  color: rgba(160, 162, 161, 1);
+                  font-size: 0.24rem;
+                  margin-left: -2.7rem;
+                }
+                .note{
+                  width: 1rem;
+                  height: 0.4rem;
+                  color: rgba(160, 162, 161, 1);
+                  font-size: 0.24rem;
+                  margin-left: 1.7rem;
+                }
+                .price{
+                  width: 0.74rem;
+                  height: 0.52rem;
+                  display: block;
+                  color: rgba(229, 28, 35, 1);
+                  font-size: 0.34rem;
+                  margin-left: 0.5rem;
+                  margin-top: 0.9rem;
+                }
+                .oriprice{
+                  display: block;
+                  float: left;
+                  width: 1.44rem;
+                  height: 0.46rem;
+                  color: rgba(16, 16, 16, 1);
+                  font-size: 0.26rem;
+                  margin-left: 1.5rem;
+                  margin-top: -0.5rem;
+                  text-decoration: line-through;
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
